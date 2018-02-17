@@ -3,7 +3,7 @@
 These are simple buttons with 3 states: Normal | Hovered | Clicked
 
 
-![test/images/buttons.png]
+![Buttons](test/images/buttons.png)
 
 
 ## Optional Javascript
