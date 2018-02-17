@@ -30,6 +30,7 @@
     transition: background-color .2s, box-shadow .2s;
     overflow:hidden;
     cursor:pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 .btn.animate::after {
 	position: absolute;
