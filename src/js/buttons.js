@@ -6,10 +6,10 @@ var Buttons = {
 		var btns = document.getElementsByTagName("button"),
 		l = btns.length,i = 0;
 		function onMouseDown(event){
-			var scrollTop = document.body.scrollTop || document.documentElement.scrollTop,
+			var scrollTop = document.body.scrollTop,
 				position = Buttons.getPosition(this),
-				x = event.clientX - position.left,
-				y =  event.clientY - position.top + scrollTop;
+				x = event.pageX - position.left,
+				y =  event.pageY - position.top - scrollTop;
 			Buttons.onclick(this,x,y);
 		}
 		for(;i<l;i++){
