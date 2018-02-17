@@ -32,6 +32,17 @@
     cursor:pointer;
     -webkit-tap-highlight-color: transparent;
 }
+.btn:active::after {
+	position: absolute;
+	content:" ";
+	top:50%;
+	left:50%;
+	transform: translateX(-50%) translateY(-50%);
+	background-color:rgba(0,0,0,.1);
+	display:block;
+	border-radius: 50%;
+	animation: btn-click ease-out .5s normal;
+}
 .btn.animate::after {
 	position: absolute;
 	content:" ";
