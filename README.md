@@ -5,6 +5,9 @@ These are simple buttons with 3 states: Normal | Hovered | Clicked
 
 ![Buttons](test/images/buttons.png)
 
+## Demo
+
+You can see a live demo and a little more explanation on here: [Create Awesome CSS buttons](https://idiallo.com/blog/create-awesome-css-buttons).
 
 ## Optional Javascript
 
@@ -12,4 +15,3 @@ The javascript is only added to position the press effect right under the mouse 
 
 Note that the Javascript is optional and the experience should look good enough even without the animation.
 
-You can see a live demo and a little more explanation on here: [Create Awesome CSS buttons](https://idiallo.com/blog/create-awesome-css-buttons).
